@@ -1,0 +1,10 @@
+/* admin.css */
+input[name="sarlavha"], textarea[name="matn"] {
+    background-color: #f0f8ff;  /* Rangni o'zgartirish */
+    border-color: #0099cc;      /* Chiziq rangini o'zgartirish */
+}
+
+input[name="sarlavha"]:focus, textarea[name="matn"]:focus {
+    background-color: #e6f7ff;  /* Fokusda rangni o'zgartirish */
+    border-color: #0066cc;
+}

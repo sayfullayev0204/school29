@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load i18n %}
+{% load static %}
+
+<head charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>school 29</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/icon1.png' %}" rel="icon" type="png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="{% static 'css/map.css' %}">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css" rel="stylesheet' %}">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  {% include "header.html" %}
+  <style>
+    .hero-img img {
+      width: 100%;
+      max-width: 100%;  /* Ensures the image does not overflow */
+      height: auto;
+      transform: scale(1.2); /* Scales the image up */
+      transition: transform 0.3s ease-in-out; /* Adds a smooth transition */
+    }
+    
+    .hero-img img:hover {
+      transform: scale(1.3); /* Makes the image a bit bigger on hover */
+    }
+  </style>
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark"><img src="{% static 'img/fon.jpg' %}" alt="" class="hero-bg">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-between">
+          <div class="col-lg-5 order-lg-last" data-aos="zoom-out" data-aos-delay="100" style="max-width: 100%px;">
+            <img src="{% static 'img/idum1.jpg' %}" class="img-fluid animated" style="border-radius: 8px; max-height: 550px;">
+          </div>
+          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
+            <h1 style="font-size: 20px;">MATEMATIKA FANIGA IXTISOSLASHTRILGAN <span>29-SONLI</span> DAVLAT UMUTA'LIM MAKTABI</h1>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28 " preserveAspectRatio="none">
+
+      </svg>
+
+    </section><!-- /Hero Section -->
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background" style="background: url(/static/img/header1.png);">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i style="color: #0056b3;" class="bi bi-bank"></i>
+            <div class="stats-item">
+              <p>O'quv binolari <span style="font-family: 'Courier New', Courier, monospace;">3</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i style="color: #0056b3;" class="bi bi-mortarboard"></i>
+            <div class="stats-item">
+              <p>Mutaxassislik <span style="font-family: 'Courier New', Courier, monospace;">15</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i style="color: #0056b3;" class="bi bi-person-arms-up"></i>
+            <div class="stats-item">
+              <p>O'quvchilar <span style="font-family: 'Courier New', Courier, monospace;">200</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i style="color: #0056b3;" class="bi bi-person-raised-hand"></i>
+            <div class="stats-item">
+              <p>Professor-o'qituvchilar <span style="font-family: 'Courier New', Courier, monospace;">40</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i style="color: #0056b3;" class="bi bi-pc-display"></i>
+            <div class="stats-item">
+              <p>Kompyuter xonalari <span style="font-family: 'Courier New', Courier, monospace;">3</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i style="color: #0056b3;" class="bi bi-moisture"></i>
+            <div class="stats-item">
+              <p>Laboratoriya <span style="font-family: 'Courier New', Courier, monospace;">3</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section" style="background-color: #f4f5fe; background: url(/static/img/header1.png);">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{% trans "Haftalik" %}</h2>
+        <div><span>{% trans "Yangiliklar" %}</span></div>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <!-- Last post in one div -->
+          {% for post in latest_post %}
+              <div class="col-xl-5 content">
+                <a href="{% url 'news_detail' post.pk%}">
+                  <div class="image-container" style="border-radius: 8px 8px 0 0 ;">
+                      <img src="{{ post.main_image.url }}" style="margin: 0;">
+                      <div class="date-container">
+                          <span class="day">{{ post.date.day }}</span>
+                          <div class="month-year">
+                              <span class="month">{{ post.date|date:"F" }}</span>
+                              <span class="year">{{ post.date|date:"Y" }}</span>
+                          </div>
+                      </div>
+                      <div class="icon-box" style="border-radius: 0 0 8px 8px;">
+                        <h3 style="background:none; color: #040677;">{{ post.sarlavha }}</h3>
+                        </div>
+                  </div>
+                </a>
+              </div>
+            
+          {% endfor %}
+
+          <!-- Remaining 4 posts in separate divs -->
+          <div class="col-xl-7">
+              <div class="row gy-4 icon-boxes">
+                  {% for post in other_posts %}
+                      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box" style="margin-bottom: 30px;">
+                          <a href="{% url 'news_detail' post.pk%}">
+                            <div class="image-container">
+                                <img src="{{ post.main_image.url }}" alt="">
+                                <div class="date-container">
+                                    <span class="day">{{ post.date.day }}</span>
+                                    <div class="month-year">
+                                        <span class="month">{{ post.date|date:"F" }}</span>
+                                        <span class="year">{{ post.date|date:"Y" }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>{{ post.sarlavha }}</h3>
+                          </a>
+                        </div>
+                    </div>
+                  {% endfor %}
+              </div>
+          </div>
+      
+      </div>
+      
+
+    </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section" style="background: url(/static/img/header1.png);" >
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Bizning manzilimiz</h2>
+        <div><span>Xaritada</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="slider">
+          <div class="slider-track">
+            <!-- Elementlarni ko'chirib kiritamiz -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.0143877588434!2d64.41165507579369!3d39.76761197155127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50072362b0d8a5%3A0x6370655762f8947a!2z0KjQutC-0LvQsCDihJYyOQ!5e1!3m2!1sru!2s!4v1736132020063!5m2!1sru!2s" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section" style="background: url(/static/img/header1.png);">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{% trans "Bog'lanish"%}</h2>
+        <div><span>{% trans "Biz bilan Bo'glanish" %}</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i style="color: #0056b3;" class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>{% trans 'Manzil'%}</h3>
+                <p>{% trans "MANZIL Buxoro viloyati, Buxoro shahar, Namozgoh ko'chasi 29-uy" %}</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i style="color: #0056b3;" class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>{% trans 'Telefon'%}</h3>
+                <p> 998-65-221-04-01</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i style="color: #0056b3;" class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>{% trans 'Email'%}</h3>
+                <p>school029@umail.uz</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form method="post" class="email-form">
+                {% csrf_token %}
+                <div class="row gy-4">
+        
+                    <div class="col-md-6">
+                        <input type="text" name="name" class="form-control" placeholder="{% trans 'Ismingiz' %}" required="" value="{{ form.name.value|default:'' }}">
+                    </div>
+        
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" name="email" placeholder="{% trans 'Emailingiz' %}" required="" value="{{ form.email.value|default:'' }}">
+                    </div>
+        
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="title" placeholder="{% trans 'Sarlavha' %}" required="" value="{{ form.title.value|default:'' }}">
+                    </div>
+        
+                    <div class="col-md-12">
+                        <textarea class="form-control" name="message" rows="6" placeholder="{% trans 'Xabar' %}" required="">{{ form.message.value|default:'' }}</textarea>
+                    </div>
+        
+                    <div class="col-md-12 text-center">
+        
+                        <button type="submit" class="button" style="color: #fff; background: #0056b3;border: 0;padding: 10px 30px;transition: 0.4s;border-radius: 50px;">{% trans 'Yuborish' %}</button>
+                    </div>
+        
+                </div>
+            </form>
+        
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  {% include "footer.html" %}
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+  <script src="{% static 'js/map.js' %}"></script>
+
+</body>
+
+</html>

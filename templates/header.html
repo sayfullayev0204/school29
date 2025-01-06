@@ -1,0 +1,72 @@
+{% load i18n %}
+{% load static %}
+<head charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>TalTes</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/icon1.png' %}" rel="icon" type="png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="{% static 'css/map.css' %}">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css" rel="stylesheet' %}">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+</head>
+<header id="header" class="header align-items-center fixed-top" style="background-color: #08005eb5;">
+
+  <div class="message-container">
+      {% if messages %}
+      {% for message in messages %}
+      <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+          {{ message }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      {% endfor %}
+      {% endif %}
+
+  </div>
+  <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+    <a href="{% url 'home' %}" class="logo d-flex align-items-center">
+      <h1 class="sitename" style="font-size: 18px;"><span>SCHOOL</span> <span style="color: #1acc8d;">29</span></h1>
+    </a>
+
+    <nav class="navmenu">
+      <ul>
+        <li><a href="">Bosh sahifa</a></li>
+
+        <li><a href="">Maktab haqida</a></li>
+
+        <li><a href="">Rahbariyati</a></li>
+        <li><a href="">O'qituvchilar faoliati</a></li>
+        <li><a href="">Yangiliklar</a></li>
+        <li><a href="">Olimpiadalar</a></li>
+        <li><a href="">Yangi baholash tizimi</a></li>
+        <li class="dropdown"><a href="#"><span>Yo'nalishlar</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul class="start-50">
+            <li><a href="">5 tashabbus</a></li>
+            <li><a href="">Eco school</a></li>
+            <li><a href="">Sport</a></li>
+          </ul>
+          </li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+    </nav>
+
+  </div>
+</header>
