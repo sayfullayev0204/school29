@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load i18n %}
+{% load static %}
+
+<head charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>school 29</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="{% static 'css/map.css' %}">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css" rel="stylesheet' %}">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  {% include "header.html" %}
+  <style>
+    .hero-img img {
+      width: 100%;
+      max-width: 100%;  /* Ensures the image does not overflow */
+      height: auto;
+      transform: scale(1.2); /* Scales the image up */
+      transition: transform 0.3s ease-in-out; /* Adds a smooth transition */
+    }
+    
+    .hero-img img:hover {
+      transform: scale(1.3); /* Makes the image a bit bigger on hover */
+    }
+        body {
+            background-color: #f8f9fa;
+        }
+        .table-container {
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .table {
+                font-size: 0.9rem;
+            }
+            .table th, .table td {
+                padding: 0.5rem;
+            }
+        }
+  </style>
+  <main class="main">
+
+    <!-- About Section -->
+    <section id="about" class="about section" style="background-color: #f4f5fe; background: url(/static/img/header1.png);">
+      <div class="container section-title" data-aos="fade-up" style="margin-top: 60px;">
+        <h2>{% trans "Olimpiada" %}</h2>
+        <div><span>{% trans "Natijalari" %}</span></div>
+
+      </div>
+    </div>
+    </div>
+      
+
+    </section><!-- /About Section -->
+    <section style="background-color: #f4f5fe; background: url(/static/img/header1.png); margin-top: -60px;">
+        <div class="container table-container" >
+            <h1>{% trans "2024-Yil uchun" %}</h1>
+            <div class="table-responsive" style="background-color: #f4f5fe; background: url(/static/img/header1.png);">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>{% trans "Fan" %}</th>
+                            <th>{% trans "O'qituvchi" %}</th>
+                            <th>{% trans "O'quvchi" %}</th>
+                            <th>{% trans "Sinf" %}</th>
+                            <th>{% trans "O'rin" %}</th>
+                            <th>{% trans "Ball" %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ona-tili va Adabiyot</td>
+                            <td>Karomatova Gulzoda</td>
+                            <td>Maxmudova Madina Xurshid qizi</td>
+                            <td>9-sinf</td>
+                            <td>3</td>
+                            <td>35.3</td>
+                        </tr>
+                        <tr>
+                            <td>Ona-tili va Adabiyot</td>
+                            <td>Yangiyeva Zilola Eshmurodovna</td>
+                            <td>Sobirov Muhammadali</td>
+                            <td>10</td>
+                            <td>7</td>
+                            <td>34.4</td>
+                        </tr>
+                        <tr>
+                            <td>Ona-tili va Adabiyot</td>
+                            <td>Muxtarova Feruza Qodirovna</td>
+                            <td>Voxidova Nilufar</td>
+                            <td>11</td>
+                            <td>4</td>
+                            <td>40.9</td>
+                        </tr>
+                        <tr>
+                            <td>Ona-tili va Adabiyot</td>
+                            <td>Muxtarova Feruza Qodirovna</td>
+                            <td>Aliyeva Mohinur</td>
+                            <td>11</td>
+                            <td>9</td>
+                            <td>38.7</td>
+                        </tr>
+                        <tr>
+                            <td>Tarix</td>
+                            <td>Safarova Nargiza Abduraupovna</td>
+                            <td>Rustamov Elbek</td>
+                            <td>9</td>
+                            <td>6</td>
+                            <td>31.4</td>
+                        </tr>
+                        <tr>
+                            <td>Tarix</td>
+                            <td>Safarova Nargiza Abduraupovna</td>
+                            <td>Muxtarov Shaxriyor</td>
+                            <td>10</td>
+                            <td>3</td>
+                            <td>40.2</td>
+                        </tr>
+                        <tr>
+                            <td>Matematika</td>
+                            <td>Nurmuhammedov Doston</td>
+                            <td>Sunnatullayev Diyor</td>
+                            <td>9</td>
+                            <td>3</td>
+                            <td>34.6</td>
+                        </tr>
+                        <tr>
+                            <td>Matematika</td>
+                            <td>Nurmuhammedov Doston</td>
+                            <td>Sharipov Shaxriyor</td>
+                            <td>9</td>
+                            <td>9</td>
+                            <td>24.9</td>
+                        </tr>
+                        <tr>
+                            <td>Fizika</td>
+                            <td>Botirova Nodira</td>
+                            <td>Isoqova Dilnura</td>
+                            <td>10</td>
+                            <td>7</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>Fizika</td>
+                            <td>Jo'raqulov Shukurullo</td>
+                            <td>Sunnatullayev Diyor</td>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>29.9</td>
+                        </tr>
+                        <tr>
+                            <td>Fizika</td>
+                            <td>Jo'raqulov Shukurullo</td>
+                            <td>Sharipov Shaxriyor</td>
+                            <td>9</td>
+                            <td>3</td>
+                            <td>28.8</td>
+                        </tr>
+                        <tr>
+                            <td>Fizika</td>
+                            <td>Jo'raqulov Shukurullo</td>
+                            <td>Yusupov G'aybullo</td>
+                            <td>9</td>
+                            <td>4</td>
+                            <td>25.3</td>
+                        </tr>
+                        <tr>
+                            <td>Huquq</td>
+                            <td>Aminova Zilola Nigorovna</td>
+                            <td>Xayriyeva Yulduz</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>35.4</td>
+                        </tr>
+                        <tr>
+                            <td>Informatika</td>
+                            <td>Fayzullayeva Nigina Abdurahmonovna</td>
+                            <td>Bahodirov Begzod</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>15.7</td>
+                        </tr>
+                        <tr>
+                            <td>Informatika</td>
+                            <td>Fayzullayeva Nigina Abdurahmonovna</td>
+                            <td>Ismailov Shaxzod</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>19.1</td>
+                        </tr>
+                        <tr>
+                            <td>Informatika</td>
+                            <td>Fayzullayeva Nigina Abdurahmonovna</td>
+                            <td>Ravshanov Muhammadjon</td>
+                            <td>11</td>
+                            <td>9</td>
+                            <td>12.2</td>
+                        </tr>
+                        <tr>
+                            <td>Geografiya</td>
+                            <td>Xudoyorova Dilnoza Bomurotovna</td>
+                            <td>Rustamov Azizjon</td>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>26.8</td>
+                        </tr>
+                        <tr>
+                            <td>Ingliz tili</td>
+                            <td>Jabborova Ruxsora Jobirovna</td>
+                            <td>Cho'liyev Sherzod</td>
+                            <td>11</td>
+                            <td>1</td>
+                            <td>46.1</td>
+                        </tr>
+                        <tr>
+                            <td>Ingliz tili</td>
+                            <td>Qiyomova Shohida</td>
+                            <td>Shokirova Mohina</td>
+                            <td>11</td>
+                            <td>6</td>
+                            <td>43</td>
+                        </tr>
+                        <tr>
+                            <td>Kimyo</td>
+                            <td>Xudoyorova Dilnoza Nabijon Qizi</td>
+                            <td>Norboyev Botir</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>11.8</td>
+                        </tr>
+                        <tr>
+                            <td>Kimyo</td>
+                            <td>Xudoyorova Dilnoza Nabijon Qizi</td>
+                            <td>Anvarova Dilshod</td>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>27.6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            {% if olimpiada %}
+            <div class="container table-container" >
+                <h1>2025-Yil uchun</h1>
+                <div class="table-responsive" style="background-color: #f4f5fe; background: url(/static/img/header1.png);">
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>{% trans "Fan" %}</th>
+                                <th>{% trans "O'qituvchi" %}</th>
+                                <th>{% trans "O'quvchi" %}</th>
+                                <th>{% trans "Sinf" %}</th>
+                                <th>{% trans "O'rin" %}</th>
+                                <th>{% trans "Ball" %}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in olimpiada %}
+                            <tr>
+                                <td>{{i.Fan}}</td>
+                                <td>{{i.Oqituvchi}}</td>
+                                <td>{{i.Oquvchi}}</td>
+                                <td>{{i.Sinf}}</td>
+                                <td>{{i.Orin}}</td>
+                                <td>{{i.Orin}}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}    
+    </section>
+  </main>
+
+  {% include "footer.html" %}
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+  <script src="{% static 'js/map.js' %}"></script>
+
+</body>
+
+</html>

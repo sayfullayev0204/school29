@@ -2,12 +2,11 @@
 {% load static %}
 <head charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>TalTes</title>
+  <title>school 29</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
-  <link href="{% static 'img/icon1.png' %}" rel="icon" type="png">
+
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -42,31 +41,74 @@
   <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
     <a href="{% url 'home' %}" class="logo d-flex align-items-center">
-      <h1 class="sitename" style="font-size: 18px;"><span>SCHOOL</span> <span style="color: #1acc8d;">29</span></h1>
+      <h1 class="sitename" style="font-size: 18px;"><span>SCHOOL</span> <span style="color: #1acc8d; font-family: 'Courier New', Courier, monospace;">29</span></h1>
     </a>
 
     <nav class="navmenu">
       <ul>
-        <li><a href="">Bosh sahifa</a></li>
+        <li><a href="{% url 'home' %}">{% trans "Bosh sahifa" %}</a></li>
 
-        <li><a href="">Maktab haqida</a></li>
+        <li><a href="{% url 'about_school' %}">{% trans "Maktab haqida" %}</a></li>
 
-        <li><a href="">Rahbariyati</a></li>
-        <li><a href="">O'qituvchilar faoliati</a></li>
-        <li><a href="">Yangiliklar</a></li>
-        <li><a href="">Olimpiadalar</a></li>
-        <li><a href="">Yangi baholash tizimi</a></li>
-        <li class="dropdown"><a href="#"><span>Yo'nalishlar</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <li><a href="{% url 'leadership' %}">{% trans "Rahbariyat" %}</a></li>
+        <li><a href="">{% trans "O'qituvchilar faoliati" %}</a></li>
+        <li><a href="{% url 'news' %}">{% trans "Yangiliklar" %}</a></li>
+        <li><a href="{% url 'olimpiada' %}">{% trans "Olimpiadalar" %}</a></li>
+        <li class="dropdown"><a href="#"><span>{% trans "Yo'nalishlar" %}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul class="start-50">
-            <li><a href="">5 tashabbus</a></li>
-            <li><a href="">Eco school</a></li>
-            <li><a href="">Sport</a></li>
+            <li><a href="">{% trans "5 tashabbus" %}</a></li>
+            <li><a href="">{% trans "Eco school" %}</a></li>
+            <li><a href="">{% trans "Sport" %}</a></li>
           </ul>
-          </li>
+        </li>
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
     </nav>
-
   </div>
+  <div class="container" style="display: flex; justify-content: space-between; gap: 20px;">
+    <!-- Ijtimoiy tarmoqlar ro'yxati o'ng tarafda -->
+    <div class="social-links" style="display: flex; gap: 10px;">
+      <a href="https://t.me/Buxoroshahar_29_IDUM"><i class="bi bi-telegram" style="font-size: 25px;"></i></a>
+      <a href="https://www.youtube.com/@Buxoroshahar29-IDUM"><i class="bi bi-youtube" style="font-size: 25px;"></i></a>
+      <a href="https://facebook.com/groups/526737591265270/"><i class="bi bi-facebook" style="font-size: 25px;"></i></a>
+      <a href="https://www.instagram.com/school_29_bukhara?igsh=MWJ1NWFqZHp4bHpyag%3D%3D&utm_source=qr"><i class="bi bi-instagram" style="font-size: 25px;"></i></a>
+    </div>
+        <!-- Til sozlanmalari chap tarafda -->
+    <div class="language-settings">
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 10px;">
+        <!-- Ruscha til uchun -->
+        <li>
+          <form action="{% url 'set_language' %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <input type="hidden" name="language" value="ru">
+            <button type="submit" style="background: none; border: none; padding: 0; cursor: pointer; display: flex; align-items: center;">
+              <img src="{% static 'img/ru.png' %}" style="max-width: 30px;" alt="">
+            </button>
+          </form>
+        </li>
+        <!-- Inglizcha til uchun -->
+        <li>
+          <form action="{% url 'set_language' %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <input type="hidden" name="language" value="en">
+            <button type="submit" style="background: none; border: none; padding: 0; cursor: pointer; display: flex; align-items: center;">
+              <img src="{% static 'img/en.png' %}" style="max-width: 30px;" alt="">
+            </button>
+          </form>
+        </li>
+        <!-- O'zbekcha til uchun -->
+        <li>
+          <form action="{% url 'set_language' %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <input type="hidden" name="language" value="uz">
+            <button type="submit" style="background: none; border: none; padding: 0; cursor: pointer; display: flex; align-items: center;">
+              <img src="{% static 'img/uz.png' %}" style="max-width: 30px;" alt="">
+            </button>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
 </header>

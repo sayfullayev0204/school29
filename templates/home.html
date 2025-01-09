@@ -9,8 +9,6 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
-  <link href="{% static 'img/icon1.png' %}" rel="icon" type="png">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -56,7 +54,7 @@
             <img src="{% static 'img/idum1.jpg' %}" class="img-fluid animated" style="border-radius: 8px; max-height: 550px;">
           </div>
           <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h1 style="font-size: 20px;">MATEMATIKA FANIGA IXTISOSLASHTRILGAN <span>29-SONLI</span> DAVLAT UMUTA'LIM MAKTABI</h1>
+            <h1 style="font-size: 20px;">{% trans "MATEMATIKA FANIGA IXTISOSLASHTRILGAN" %} <span>{% trans "29-SONLI" %}</span>{% trans "DAVLAT UMUTA'LIM MAKTABI" %}</h1>
             </p>
           </div>
 
@@ -79,42 +77,42 @@
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i style="color: #0056b3;" class="bi bi-bank"></i>
             <div class="stats-item">
-              <p>O'quv binolari <span style="font-family: 'Courier New', Courier, monospace;">3</span></p>
+              <p>{% trans "O'quv binolari" %}<span style="font-family: 'Courier New', Courier, monospace;">1</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i style="color: #0056b3;" class="bi bi-mortarboard"></i>
             <div class="stats-item">
-              <p>Mutaxassislik <span style="font-family: 'Courier New', Courier, monospace;">15</span></p>
+              <p>{% trans "Pedagog xodimlar" %} <span style="font-family: 'Courier New', Courier, monospace;">68</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i style="color: #0056b3;" class="bi bi-person-arms-up"></i>
             <div class="stats-item">
-              <p>O'quvchilar <span style="font-family: 'Courier New', Courier, monospace;">200</span></p>
+              <p>{% trans "Oliy va birinchi toifali pedagoglar" %} <span style="font-family: 'Courier New', Courier, monospace;">44</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i style="color: #0056b3;" class="bi bi-person-raised-hand"></i>
             <div class="stats-item">
-              <p>Professor-o'qituvchilar <span style="font-family: 'Courier New', Courier, monospace;">40</span></p>
+              <p>{% trans "O'quvchilar" %} <span style="font-family: 'Courier New', Courier, monospace;">868</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i style="color: #0056b3;" class="bi bi-pc-display"></i>
             <div class="stats-item">
-              <p>Kompyuter xonalari <span style="font-family: 'Courier New', Courier, monospace;">3</span></p>
+              <p>{% trans "Kompyuter xonalari" %} <span style="font-family: 'Courier New', Courier, monospace;">3</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i style="color: #0056b3;" class="bi bi-moisture"></i>
             <div class="stats-item">
-              <p>Laboratoriya <span style="font-family: 'Courier New', Courier, monospace;">3</span></p>
+              <p>{% trans "Laboratoriya" %} <span style="font-family: 'Courier New', Courier, monospace;">3</span></p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -190,8 +188,8 @@
     <!-- Features Section -->
     <section id="features" class="features section" style="background: url(/static/img/header1.png);" >
       <div class="container section-title" data-aos="fade-up">
-        <h2>Bizning manzilimiz</h2>
-        <div><span>Xaritada</span></div>
+        <h2>{% trans "Bizning manzilimiz" %}</h2>
+        <div><span>{% trans "Xaritada" %}</span></div>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -216,7 +214,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>{% trans "Bog'lanish"%}</h2>
-        <div><span>{% trans "Biz bilan Bo'glanish" %}</span></div>
+        <div><span>{% trans "Biz bilan Bog'lanish" %}</span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade" data-aos-delay="100">
@@ -228,7 +226,7 @@
               <i style="color: #0056b3;" class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>{% trans 'Manzil'%}</h3>
-                <p>{% trans "MANZIL Buxoro viloyati, Buxoro shahar, Namozgoh ko'chasi 29-uy" %}</p>
+                <p>{% trans "Buxoro viloyati, Buxoro shahar, Namozgoh ko'chasi 29-uy" %}</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -236,7 +234,7 @@
               <i style="color: #0056b3;" class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>{% trans 'Telefon'%}</h3>
-                <p> 998-65-221-04-01</p>
+                <p> + 998-65-221-04-01</p>
               </div>
             </div><!-- End Info Item -->
 

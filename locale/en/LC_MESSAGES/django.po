@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-07 08:43+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\templates\about_school.html:52 .\templates\leadership.html:52
+#: .\templates\news.html:52
+msgid "Maktab"
+msgstr "School"
+
+#: .\templates\about_school.html:53
+msgid "Haqida"
+msgstr "About"
+
+#: .\templates\home.html:128
+msgid "Haftalik"
+msgstr "Weekly"
+
+#: .\templates\home.html:216
+msgid "Bog'lanish"
+msgstr "Connection"
+
+#: .\templates\home.html:217
+msgid "Biz bilan Bog'lanish"
+msgstr "Contact us"
+
+#: .\templates\home.html:228
+msgid "Manzil"
+msgstr "Address"
+
+#: .\templates\home.html:229
+msgid "Buxoro viloyati, Buxoro shahar, Namozgoh ko'chasi 29-uy"
+msgstr "Bukhara region, Bukhara city, Namozgoh street, house 29"
+
+msgid "2019 yil mukammal ta'mir"
+msgstr "2019 major renovation"
+
+msgid "Maktab binosi qurilgan yili"
+msgstr "Year the school building was built"
+
+msgid "Dastur asosida ta'mirlangan yili va turi"
+msgstr "Year and type of repair based on the program"
+
+msgid "Buxoro shahar 29-Idum haqida ma’lumot"
+msgstr "Information about Bukhara city 29-Idum"
+
+#: .\templates\home.html:236
+msgid "Telefon"
+msgstr "Phone"
+
+#: .\templates\home.html:244
+msgid "Email"
+msgstr "Eamil"
+
+#: .\templates\home.html:257
+msgid "Ismingiz"
+msgstr "Name"
+
+#: .\templates\home.html:261
+msgid "Emailingiz"
+msgstr "Email"
+
+#: .\templates\home.html:265
+msgid "Sarlavha"
+msgstr "Title"
+
+#: .\templates\home.html:269
+msgid "Xabar"
+msgstr "Message"
+
+#: .\templates\home.html:274
+msgid "Yuborish"
+msgstr "Send"
+
+#: .\templates\leadership.html:53
+msgid "Raxbariyati"
+msgstr "Leadership"
+
+#: .\templates\olimpiada.html:66
+msgid "Olimpiada"
+msgstr "Olimpiada"
+
+#: .\templates\olimpiada.html:67
+msgid "Natijalari"
+msgstr "Results"
+
+msgid "MATEMATIKA FANIGA IXTISOSLASHTRILGAN"
+msgstr "SPECIALIZED IN MATHEMATICS"
+
+msgid "29-SONLI"
+msgstr "NUMBER 29"
+
+msgid "DAVLAT UMUTA'LIM MAKTABI"
+msgstr "PUBLIC COMMUNITY SCHOOL"
+
+msgid "O'quv binolari"
+msgstr "Educational buildings"
+
+msgid "Pedagog xodimlar"
+msgstr "Teaching staff"
+
+msgid "Oliy va birinchi toifali pedagoglar"
+msgstr "Higher and first-class teachers"
+
+msgid "O'quvchilar"
+msgstr "Students"
+
+msgid "Kompyuter xonalari"
+msgstr "Computer rooms"
+
+msgid "Laboratoriya"
+msgstr "Laboratory"
+
+msgid "Bizning manzilimiz"
+msgstr "Our address"
+
+msgid "Xaritada"
+msgstr "On the map"
+
+msgid "Bino nechi qavatdan iborat"
+msgstr "How many floors does the building have?"
+
+msgid "Sinflar soni"
+msgstr "Number of classes"
+
+msgid "O‘qish nechi smenada"
+msgstr "What shifts are you studying?"
+
+msgid "Maktab nimaga ixtisoslashtirilgan"
+msgstr "What does the school specialize in?"
+
+msgid "Ixtisoslashtirilgan maktab (matematika faniga)"
+msgstr "Specialized school (mathematics)"
+
+msgid "O‘quvchi o‘rni (quvvati)"
+msgstr "Student position (power)"
+
+msgid "1176 o‘rinli"
+msgstr "1176 seats"
+
+msgid "Umumiy maydoni"
+msgstr "Total area"
+
+msgid "21993 kv.m"
+msgstr "21993 square meters"
+
+msgid "Manzili to‘liq"
+msgstr "Full address"
+
+msgid "Buxoro shahar, X.Olimjon MFY, Namozgoh ko‘chasi 29-uy"
+msgstr "Bukhara city, Kh. Olimjon Medical University, 29 Namozgoh Street"
+
+msgid "Direktor F.I.Sh lavozimga qachondan buyon"
+msgstr "Since when did Director F.I.Sh take office?"
+
+msgid "Ravshanova Gulchera Maxamatovna"
+msgstr "Ravshanova Gulchera Makhamatovna"
+
+msgid "2019 yil 20 avgustdan"
+msgstr "From August 20, 2019"
+
+msgid "Videolar"
+msgstr "Videos"
+
+msgid "Rasmlar"
+msgstr "Images"
+
+msgid "Barcha huquqlar himoyalangan"
+msgstr "all rights reserved"
+
+msgid "Bosh sahifa"
+msgstr "Home"
+
+msgid "Maktab haqida"
+msgstr "About the school"
+
+msgid "Yangiliklar"
+msgstr "News"
+
+msgid "Olimpiadalar"
+msgstr "Olympiads"
+
+msgid "Rahbariyat"
+msgstr "Leadership"
+
+msgid "O'qituvchilar faoliati"
+msgstr "Teachers' activities"
+
+msgid "Yo'nalishlar"
+msgstr "Directions"
+
+msgid "5 tashabbus"
+msgstr "5 initiatives"
+
+msgid "Eco school"
+msgstr "Eco school"
+
+msgid "Sport"
+msgstr "Sport"
+
+msgid "Maktab Direktori"
+msgstr "School Principal"
+
+msgid "Ravshanova Gulchera Maxammatovna"
+msgstr "Ravshanova Gulchera Makhammatovna"
+
+msgid "O'quv-tarbiya Ishlari bo'yicha Direktor O'rinbosari"
+msgstr "Deputy Director for Educational Affairs"
+
+msgid "Muyassarova Muharram Gulboyevna"
+msgstr "Muyassarova Muharram Gulboyevna"
+
+msgid "Ma'naviy-ma'rifiy Ishlar bo'yicha Direktor O'rinbosari"
+msgstr "Deputy Director for Spiritual and Educational Affairs"
+
+msgid "Hamdamova Nigora Olimovna"
+msgstr "Hamdamova Nigora Olimovna"
+
+msgid "Fan"
+msgstr "Science"
+
+msgid "O'qituvchi"
+msgstr "Teacher"
+
+msgid "O'quvchi"
+msgstr "Student"
+
+msgid "Sinf"
+msgstr "Class"
+
+msgid "O'rin"
+msgstr "Place"
+
+msgid "Ball"
+msgstr "Score"
